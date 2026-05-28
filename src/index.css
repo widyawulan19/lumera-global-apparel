@@ -18,12 +18,18 @@ code {
 
 
 :root {
-  --color-accent: #A85ABF;
-  --color-accent-primary: #A989AB;
+  --color-accent: #9F6920;
+  --color-accent-secondary: #E9C579;
+  --color-accent-primary: #DAA755;
+
+  --color-button: #B68746;
+
+  --color-background: #FFFDF7;
+  --color-bg-secondary: #F1DEA8;
 
 
   --color-text-accent: #735377;
-  --color-text-bold: #3c2e3e;
+  --color-text-bold: #462506;
 
   --basic-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   --md-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);

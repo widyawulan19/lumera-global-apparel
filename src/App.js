@@ -5,6 +5,7 @@ import LandingPage from './Pages/LandingPage';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import AosInit from './Utils/Aosinit';
+import NewLanding from './Pages/NewLanding';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <AosInit />
       <Routes>
-        <Route path='/' element={<LandingPage />} />
+        <Route path='/' element={<NewLanding />} />
+        {/* <Route path='/' element={<LandingPage />} /> */}
       </Routes>
     </div>
   );

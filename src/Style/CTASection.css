@@ -1,0 +1,275 @@
+.cta-section {
+    position: relative;
+    overflow: hidden;
+
+    padding: 140px 0;
+
+    background:
+        linear-gradient(135deg,
+            #2b1705 0%,
+            #3a210a 100%);
+}
+
+.cta-container {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 80px;
+    align-items: center;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* LEFT */
+
+.cta-label {
+    display: inline-block;
+
+    margin-bottom: 24px;
+
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    color: rgba(233, 197, 121, 0.85);
+}
+
+.cta-title {
+    font-size: 72px;
+    line-height: 1.05;
+    font-weight: 700;
+
+    color: #fff;
+
+    margin-bottom: 28px;
+
+    max-width: 760px;
+}
+
+.cta-title span {
+    color: var(--color-accent-secondary);
+}
+
+.cta-description {
+    max-width: 640px;
+
+    font-size: 17px;
+    line-height: 1.9;
+
+    color: rgba(255, 255, 255, 0.72);
+}
+
+/* RIGHT */
+
+.cta-right {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.cta-btn {
+    min-width: 240px;
+
+    padding: 18px 28px;
+
+    border-radius: 999px;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: all 0.35s ease;
+}
+
+/* PRIMARY */
+
+.primary-btn {
+    background:
+        linear-gradient(145deg,
+            #daa755,
+            #b68746);
+
+    color: #fff;
+
+    box-shadow:
+        0 12px 24px rgba(218, 167, 85, 0.18);
+}
+
+.primary-btn:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 16px 32px rgba(218, 167, 85, 0.24);
+}
+
+/* SECONDARY */
+
+.secondary-btn {
+    background:
+        rgba(255, 255, 255, 0.06);
+
+    color: rgba(255, 255, 255, 0.9);
+
+    border:
+        1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(10px);
+}
+
+.secondary-btn:hover {
+    transform: translateY(-4px);
+
+    background:
+        rgba(255, 255, 255, 0.1);
+}
+
+/* WHATSAPP */
+
+.whatsapp-btn {
+    background: transparent;
+
+    color: rgba(233, 197, 121, 0.92);
+
+    border:
+        1px solid rgba(233, 197, 121, 0.18);
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-4px);
+
+    background:
+        rgba(233, 197, 121, 0.08);
+}
+
+/* GLOW */
+
+.cta-glow {
+    position: absolute;
+
+    border-radius: 50%;
+
+    filter: blur(120px);
+
+    opacity: 0.3;
+}
+
+.glow-1 {
+    top: -140px;
+    left: -100px;
+
+    width: 420px;
+    height: 420px;
+
+    background:
+        rgba(218, 167, 85, 0.18);
+}
+
+.glow-2 {
+    bottom: -180px;
+    right: -120px;
+
+    width: 460px;
+    height: 460px;
+
+    background:
+        rgba(241, 222, 168, 0.08);
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media screen and (max-width: 992px) {
+
+    .cta-section {
+        padding: 110px 0;
+    }
+
+    .cta-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .cta-title {
+        font-size: 56px;
+    }
+
+    .cta-right {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media screen and (max-width: 768px) {
+
+    .cta-section {
+        padding: 90px 0;
+    }
+
+    .cta-container {
+        width: 92%;
+    }
+
+    .cta-title {
+        font-size: 42px;
+    }
+
+    .cta-description {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .cta-right {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cta-btn {
+        width: 100%;
+    }
+}
+
+/* ========================= */
+/* Small Mobile */
+/* ========================= */
+
+@media screen and (max-width: 480px) {
+
+    .cta-section {
+        padding: 75px 0;
+    }
+
+    .cta-title {
+        font-size: 34px;
+    }
+
+    .cta-label {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .cta-description {
+        font-size: 15px;
+    }
+
+    .cta-btn {
+        min-width: unset;
+
+        padding: 16px 22px;
+
+        font-size: 14px;
+    }
+}
