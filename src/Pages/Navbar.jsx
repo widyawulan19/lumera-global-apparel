@@ -19,11 +19,11 @@ function Navbar() {
 
             {/* Desktop Menu */}
             <div className="nc-center">
-                <a href="#about">SERVICES </a>
-                <a href="#visi">WHY US</a>
-                <a href="#program">CLIENT</a>
-                <a href="#dokumentasi">PROCESS</a>
-                <a href="#struktur">CONTACT</a>
+                <a href="#services">SERVICES </a>
+                <a href="#why">WHY US</a>
+                <a href="#client">CLIENT</a>
+                <a href="#process">PROCESS</a>
+                <a href="#footer">CONTACT</a>
             </div>
 
             <div className="nc-right">
@@ -48,11 +48,11 @@ function Navbar() {
 
             {/* Mobile Menu */}
             <div className={`mobile-menu ${menuOpen ? 'show' : ''}`}>
-                <a href="#about">SERVICES </a>
-                <a href="#visi">WHY US</a>
-                <a href="#program">CLIENT</a>
-                <a href="#dokumentasi">PROCESS</a>
-                <a href="#struktur">CONTACT</a>
+                <a href="#services">SERVICES </a>
+                <a href="#why">WHY US</a>
+                <a href="#client">CLIENT</a>
+                <a href="#process">PROCESS</a>
+                <a href="#footer">CONTACT</a>
 
                 <a
                     href="https://wa.me/6281115599002"

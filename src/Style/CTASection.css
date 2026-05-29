@@ -26,6 +26,14 @@
 
 /* LEFT */
 
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
 .cta-label {
     display: inline-block;
 
@@ -50,6 +58,7 @@
     margin-bottom: 28px;
 
     max-width: 760px;
+    text-shadow: 0 4px 8px rgba(186, 132, 82, 0.477);
 }
 
 .cta-title span {
@@ -57,6 +66,7 @@
 }
 
 .cta-description {
+    width: 100%;
     max-width: 640px;
 
     font-size: 17px;

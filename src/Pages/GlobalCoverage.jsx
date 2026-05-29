@@ -19,7 +19,7 @@ export default function GlobalCoverageSection() {
       <div className="coverage-container">
 
         {/* LEFT SIDE */}
-        <div className="coverage-left">
+        <div className="coverage-left" data-aos="fade-up">
 
           <span className="coverage-label">
             GLOBAL COVERAGE
@@ -43,6 +43,8 @@ export default function GlobalCoverageSection() {
                   index === 0 ? "hq-location" : ""
                 }`}
                 key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
               >
                 <span className="location-dot"></span>
                 {location}
@@ -81,10 +83,10 @@ export default function GlobalCoverageSection() {
             </div>
 
             {/* CONNECTION LINES */}
-            <div className="map-line line-1"></div>
+            {/* <div className="map-line line-1"></div>
             <div className="map-line line-2"></div>
             <div className="map-line line-3"></div>
-            <div className="map-line line-4"></div>
+            <div className="map-line line-4"></div> */}
 
           </div>
 

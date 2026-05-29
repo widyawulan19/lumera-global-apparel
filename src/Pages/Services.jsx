@@ -94,13 +94,13 @@ export default function Services() {
   ];
 
   return (
-    <section className="services-section">
+    <section className="services-section" id="services">
       <div className="services-glow glow-top"></div>
       <div className="services-glow glow-bottom"></div>
 
       <div className="services-container">
         {/* LEFT SIDE */}
-        <div className="services-left">
+        <div className="services-left" data-aos='zoom-out'>
           <span className="services-label">
             OUR SERVICES
           </span>
@@ -125,6 +125,7 @@ export default function Services() {
                 index % 2 === 1 ? "offset-card" : ""
               }`}
               key={index}
+              data-aos={index % 2 === 0 ? "fade-up" : "fade-down"}
             >
               <span className="service-number">
                 {service.number}

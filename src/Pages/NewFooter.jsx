@@ -3,7 +3,7 @@ import '../Style/NewFooter.css';
 
 export default function NewFooter() {
   return (
-    <footer className="footer-section">
+    <footer className="footer-section" id='footer'>
 
       <div className="footer-glow glow-left"></div>
       <div className="footer-glow glow-right"></div>

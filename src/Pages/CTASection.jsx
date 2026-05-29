@@ -10,7 +10,7 @@ export default function CTASection() {
       <div className="cta-container">
 
         {/* LEFT */}
-        <div className="cta-left">
+        <div className="cta-left" data-aos="zoom-in">
 
           <span className="cta-label">
             START YOUR SOURCING JOURNEY
@@ -31,7 +31,7 @@ export default function CTASection() {
         </div>
 
         {/* RIGHT */}
-        <div className="cta-right">
+        <div className="cta-right" data-aos="zoom-in" data-aos-delay="200">
 
           <button className="cta-btn primary-btn">
             Request Quote

@@ -57,13 +57,13 @@ export default function Why() {
   ];
 
   return (
-    <section className="why-section">
+    <section className="why-section" id='why'>
       <div className="why-glow glow-left"></div>
       <div className="why-glow glow-right"></div>
 
       <div className="why-container">
         {/* LEFT SIDE */}
-        <div className="why-left">
+        <div className="why-left" data-aos="fade-up">
           <span className="why-label">
             WHY LUMERA GLOBAL
           </span>
@@ -81,12 +81,12 @@ export default function Why() {
           </p>
 
           <div className="why-stats">
-            <div className="stat-box">
+            <div className="stat-box" data-aos="fade-up" data-aos-delay="100">
               <h3>20+</h3>
               <p>Years Experience</p>
             </div>
 
-            <div className="stat-box">
+            <div className="stat-box" data-aos="fade-up" data-aos-delay="200">
               <h3>Asia</h3>
               <p>Factory Network</p>
             </div>
@@ -98,7 +98,7 @@ export default function Why() {
           <div className="why-line"></div>
 
           {features.map((item, index) => (
-            <div className="why-feature" key={index}>
+            <div className="why-feature" key={index} data-aos="fade-up" data-aos-delay={index * 100}>
               <div className="why-icon">
                 {item.icon}
               </div>

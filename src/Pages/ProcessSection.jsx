@@ -91,7 +91,7 @@ export default function ProcessSection() {
   ];
 
   return (
-    <section className="process-section">
+    <section className="process-section" id='process'>
       <div className="process-glow glow-left"></div>
       <div className="process-glow glow-right"></div>
 
@@ -118,7 +118,11 @@ export default function ProcessSection() {
         {/* TIMELINE */}
         <div className="process-timeline">
           {processSteps.map((step, index) => (
-            <div className="timeline-item" key={index}>
+            <div className="timeline-item" 
+              key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+            >
               <div className="timeline-circle">
                 {step.number}
               </div>
@@ -135,7 +139,10 @@ export default function ProcessSection() {
         {/* PROCESS CARDS */}
         <div className="process-cards">
           {processSteps.map((step, index) => (
-            <div className="process-card" key={index}>
+            <div className="process-card" key={index}
+              data-aos="fade-right"
+              data-aos-delay={index * 100}
+            >
               <span className="process-number">
                 {step.number}
               </span>

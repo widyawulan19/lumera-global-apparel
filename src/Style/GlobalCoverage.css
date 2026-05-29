@@ -44,6 +44,8 @@
 
     color: var(--color-text-bold);
 
+    text-shadow: var(--text-shadow);
+    margin-top: 10px;
     margin-bottom: 28px;
 }
 
@@ -65,9 +67,12 @@
 /* LOCATIONS */
 
 .coverage-locations {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: start;
+
+    gap: 5px;
 }
 
 .location-item {

@@ -82,14 +82,14 @@ export default function TargetClients() {
   ];
 
   return (
-    <section className="target-section">
+    <section className="target-section" id='client'>
       <div className="target-glow glow-left"></div>
       <div className="target-glow glow-right"></div>
 
       <div className="target-container">
 
         {/* HEADER */}
-        <div className="target-header">
+        <div className="target-header" data-aos="fade-up">
           <span className="target-label">
             OUR TARGET CLIENTS
           </span>
@@ -111,12 +111,16 @@ export default function TargetClients() {
             <div
               className={`target-card ${client.className}`}
               key={index}
+               data-aos="zoom-in"
+              data-aos-delay={index * 200}
             >
               <span className="target-number">
                 {client.id}
               </span>
 
-              <div className="target-content">
+              <div 
+                className="target-content"
+              >
                 <h3>{client.title}</h3>
 
                 <p>{client.description}</p>

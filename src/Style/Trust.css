@@ -33,13 +33,14 @@
 
     color: var(--color-accent);
 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .trust-title {
     font-size: 58px;
     line-height: 1.1;
     font-weight: 700;
+    margin: 10px;
 
     color: var(--color-text-bold);
 
@@ -77,13 +78,13 @@
 
     border-radius: 28px;
 
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.759);
 
     backdrop-filter: blur(12px);
 
-    border: 1px solid rgba(218, 167, 85, 0.16);
+    border: 1px solid rgba(218, 167, 85, 0.334);
 
-    transition: all 0.35s ease;
+    transition: all 0.35s ease-in-out !important;
 
     overflow: hidden;
 }
@@ -104,7 +105,7 @@
 }
 
 .trust-card:hover {
-    transform: translateY(-8px);
+    transform: scale(1.04) !important;
 
     border-color: rgba(159, 105, 32, 0.4);
 
@@ -152,6 +153,9 @@
 .trust-card p {
     font-size: 15px;
     line-height: 1.8;
+    text-align: justify;
+    text-justify: inter-word;
+    word-break: break-word;
 
     color: rgba(70, 37, 6, 0.72);
 }
@@ -164,13 +168,13 @@
 
     transform: translate(-50%, -50%);
 
-    font-size: 140px;
+    font-size: 160px;
     font-weight: 800;
     letter-spacing: 8px;
 
     white-space: nowrap;
 
-    color: rgba(159, 105, 32, 0.03);
+    color: rgba(159, 104, 32, 0.05);
 
     z-index: 0;
 

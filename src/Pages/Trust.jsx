@@ -41,7 +41,7 @@ export default function Trust() {
       <div className="trust-glow glow-right"></div>
 
       <div className="trust-container">
-        <div className="trust-header">
+        <div className="trust-header" data-aos='fade-up'>
           <span className="trust-label">
             WHY LUMERA GLOBAL
           </span>
@@ -59,7 +59,12 @@ export default function Trust() {
 
         <div className="trust-grid">
           {trustItems.map((item, index) => (
-            <div className="trust-card" key={index}>
+            <div 
+              className="trust-card" 
+              key={index} 
+              data-aos='fade-up' 
+              data-aos-delay={index * 150}
+            >
               <div className="trust-icon-wrapper">
                 {item.icon}
               </div>

@@ -124,7 +124,7 @@
     font-size: 74px;
     font-weight: 700;
 
-    color: rgba(159, 105, 32, 0.06);
+    color: rgba(159, 104, 32, 0.281);
 
     user-select: none;
 }
@@ -163,6 +163,8 @@
     margin-bottom: 18px;
 
     max-width: 80%;
+    /* border: 1px solid red; */
+    text-align: left;
 }
 
 .service-card p {
@@ -172,6 +174,7 @@
     color: rgba(70, 37, 6, 0.72);
 
     margin-bottom: 28px;
+    text-align: left;
 }
 
 .service-divider {

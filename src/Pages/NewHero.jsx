@@ -6,6 +6,8 @@ import {
   IoLogoWhatsapp,
   IoMdArrowRoundForward,
 } from "react-icons/io";
+import { FaCircle } from "react-icons/fa6";
+
 
 function NewHero() {
   return (
@@ -45,7 +47,6 @@ function NewHero() {
               and distributors source high-quality
               apparel with scalable supply chain
               solutions.
-              <br />
               <br />
               Based in Singapore, we connect reliable
               factories across Asia with global buyers
@@ -98,14 +99,14 @@ function NewHero() {
           <div
             className="hero-badges"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
 
-            <p>Singapore Registered Company</p>
+            <p> <FaCircle className="badge-icon" /> Singapore Registered Company</p>
 
-            <p>Asia Factory Network</p>
+            <p > <FaCircle className="badge-icon" /> Asia Factory Network</p>
 
-            <p>OEM & Private Label Specialist</p>
+            <p> <FaCircle className="badge-icon" /> OEM & Private Label Specialist</p>
 
           </div>
 

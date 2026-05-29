@@ -49,7 +49,10 @@
 
     color: var(--color-text-bold);
 
+    margin-top: 10px;
     margin-bottom: 24px;
+    text-shadow:
+        0 4px 8px rgba(70, 37, 6, 0.327);
 }
 
 .target-description {
