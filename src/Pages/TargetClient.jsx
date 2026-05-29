@@ -1,4 +1,11 @@
 import '../Style/TargetClient.css';
+import img1 from '../Assets/mock1.jpeg'
+import img2 from '../Assets/mock6.jpeg'
+import img3 from '../Assets/mock3.jpeg'
+import img5 from '../Assets/global.jpeg'
+
+import img4 from '../Assets/distri.jpeg'
+import img6 from '../Assets/amazon.jpeg'
 
 export default function TargetClients() {
   const clients = [
@@ -14,6 +21,7 @@ export default function TargetClients() {
         "Lifestyle Brands",
         "Boutique Retailers",
       ],
+      img:img1,
     },
 
     {
@@ -23,9 +31,10 @@ export default function TargetClients() {
       description:
         "Bulk apparel supply solutions for wholesale distributors with competitive pricing and consistent production.",
       tags: [
-        "Regional Distributors",
+        "Distributors",
         "Wholesale Supply",
       ],
+      img: img5
     },
 
     {
@@ -37,8 +46,8 @@ export default function TargetClients() {
       tags: [
         "Global Buyers",
         "Trading Companies",
-        "Overseas Wholesalers",
       ],
+      img: img4
     },
 
     {
@@ -53,18 +62,20 @@ export default function TargetClients() {
         "Industrial Workwear",
         "Healthcare Uniforms",
       ],
+      img: img3
     },
 
     {
       id: "05",
-      className: "small-card",
+      className: "large-card",
       title: "Government Projects",
       description:
-        "Large-scale apparel procurement support for public sector and institutional projects.",
+        "Reliable apparel distribution support for uniforms, events, and large-scale institutional needs. Helping organizations source quality clothing efficiently, consistently, and on time.",
       tags: [
         "Institutional Uniforms",
         "Tender Projects",
       ],
+      img: img2
     },
 
     {
@@ -75,9 +86,9 @@ export default function TargetClients() {
         "Flexible apparel production for online brands and modern D2C businesses.",
       tags: [
         "Shopify Brands",
-        "Amazon Sellers",
-        "D2C Brands",
+        "Amazon Sellers"
       ],
+      img: img6
     },
   ];
 
@@ -114,6 +125,14 @@ export default function TargetClients() {
                data-aos="zoom-in"
               data-aos-delay={index * 200}
             >
+
+              {/* IMAGE */}
+              {client.img && (
+                <div className="target-image" >
+                  <img src={client.img} alt={client.title} />
+                </div>
+              )}
+
               <span className="target-number">
                 {client.id}
               </span>

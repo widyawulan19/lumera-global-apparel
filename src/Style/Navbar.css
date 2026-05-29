@@ -107,7 +107,7 @@ MOBILE MENU
 
     width: 230px;
 
-    background: #fff;
+    background: var(--color-background);
     box-shadow: var(--basic-shadow);
     border-radius: 20px;
 
@@ -126,14 +126,14 @@ MOBILE MENU
 
 .mobile-menu a {
     text-decoration: none;
-    color: var(--color-text-accent);
+    color: var(--color-text-bold);
     font-weight: 550;
 }
 
 .mobile-menu button {
     width: 100%;
 
-    background-color: var(--color-text-accent);
+    background-color: var(--color-accent);
     border: none;
     border-radius: 14px;
 

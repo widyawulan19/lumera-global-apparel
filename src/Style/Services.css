@@ -59,6 +59,7 @@
     color: var(--color-text-bold);
 
     margin-bottom: 28px;
+    text-shadow: var(--text-shadow);
 }
 
 .services-title span {
@@ -127,6 +128,8 @@
     color: rgba(159, 104, 32, 0.281);
 
     user-select: none;
+    text-shadow:
+        0 4px 8px rgba(159, 104, 32, 0.264);
 }
 
 .service-icon {

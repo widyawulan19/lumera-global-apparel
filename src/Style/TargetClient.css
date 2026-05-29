@@ -66,9 +66,8 @@
 
 .target-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 26px;
+    grid-template-columns: repeat(3, 350px);
+    gap: 30px;
 }
 
 /* CARD */
@@ -76,9 +75,10 @@
 .target-card {
     position: relative;
 
-    min-height: 320px;
+    /* height: 100%; */
+    height: 460px;
 
-    padding: 38px;
+    padding: 20px;
 
     border-radius: 32px;
 
@@ -89,7 +89,7 @@
     backdrop-filter: blur(12px);
 
     border:
-        1px solid rgba(218, 167, 85, 0.12);
+        1px solid rgba(218, 167, 85, 0.336);
 
     transition: all 0.35s ease;
 }
@@ -119,38 +119,43 @@
 }
 
 .target-content {
+    padding: 10px;
     position: relative;
     z-index: 2;
 }
 
 .target-card h3 {
-    font-size: 30px;
-    line-height: 1.25;
+    font-size: 23px;
+    line-height: 1.2;
     font-weight: 600;
 
     color: var(--color-text-bold);
 
-    margin-bottom: 18px;
-
-    max-width: 85%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 .target-card p {
-    font-size: 15px;
-    line-height: 1.9;
+    font-size: 13px;
+    line-height: 1.5;
 
     color: rgba(70, 37, 6, 0.72);
 
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 /* TAGS */
 
 .target-tags {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 
-    gap: 12px;
+    gap: 8px;
+
 }
 
 .target-tags span {
@@ -174,6 +179,25 @@
 
 .target-card:hover .target-tags span {
     transform: translateY(-2px);
+}
+
+.target-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+
+.target-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+.target-card:hover .target-image img {
+    transform: scale(1.05);
 }
 
 /* BENTO SIZES */
