@@ -98,7 +98,7 @@ export default function Why() {
           <div className="why-line"></div>
 
           {features.map((item, index) => (
-            <div className="why-feature" key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+            <div className="why-feature" key={index} data-aos="fade-up" data-aos-delay={index * 300}>
               <div className="why-icon">
                 {item.icon}
               </div>

@@ -188,9 +188,11 @@
     font-size: 88px;
     font-weight: 700;
 
-    color: rgba(159, 105, 32, 0.05);
+    color: rgba(159, 104, 32, 0.224);
 
     user-select: none;
+    text-shadow:
+        0 4px 8px rgba(70, 37, 6, 0.253);
 }
 
 .process-content {
