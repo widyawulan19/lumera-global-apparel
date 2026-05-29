@@ -91,6 +91,7 @@ export default function Why() {
               <p>Factory Network</p>
             </div>
           </div>
+          
         </div>
 
         {/* RIGHT SIDE */}

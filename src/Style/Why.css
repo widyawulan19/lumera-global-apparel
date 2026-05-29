@@ -355,6 +355,13 @@
         line-height: 1.7;
     }
 
+    .why-stats {
+        /* border: 1px solid blue; */
+        width: 100%;
+        max-width: none;
+
+    }
+
     .stat-box {
         padding: 18px 20px;
     }

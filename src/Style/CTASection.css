@@ -98,6 +98,7 @@
     font-weight: 600;
 
     transition: all 0.35s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* PRIMARY */
