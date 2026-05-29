@@ -101,6 +101,8 @@
     overflow: hidden;
 
     transition: all 0.35s ease;
+    box-shadow:
+        0 8px 18px rgba(159, 105, 32, 0.08);
 }
 
 .offset-card {

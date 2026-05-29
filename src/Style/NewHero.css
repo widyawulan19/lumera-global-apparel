@@ -179,6 +179,8 @@ BUTTONS
 
     box-shadow:
         0 12px 24px rgba(218, 167, 85, 0.16);
+
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn-active:hover {
@@ -200,6 +202,7 @@ BUTTONS
         rgba(255, 255, 255, 0.05);
 
     backdrop-filter: blur(10px);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn-primary:hover {
@@ -226,6 +229,7 @@ BUTTONS
     cursor: pointer;
 
     font-size: 15px;
+    -webkit-tap-highlight-color: transparent;
     font-weight: 500;
 
     color: rgba(233, 197, 121, 0.88);
