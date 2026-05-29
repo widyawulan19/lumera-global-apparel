@@ -31,7 +31,6 @@
 
 /* COLUMN */
 
-.footer-column {}
 
 .footer-column h4 {
     font-size: 15px;
@@ -292,16 +291,24 @@
     .footer-logo {
         font-size: 24px;
         width: 100%;
-        text-align: center;
+        max-width: none;
+        /* border: 1px solid red; */
+        text-align: left;
+        margin-left: 0;
     }
 
     .footer-company-text {
         font-size: 14px;
         line-height: 1.7;
+        text-align: left;
+        width: 100%;
     }
 
     .footer-column h4 {
         font-size: 14px;
+
+        text-align: left;
+        width: 100%;
     }
 
     .footer-column ul li,
@@ -309,10 +316,19 @@
     .footer-address p {
         font-size: 13px;
         line-height: 1.7;
+        text-align: left;
+        width: 100%;
     }
 
     .footer-bottom-container p,
     .footer-bottom-container span {
         font-size: 12px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-item span {
+        text-align: left;
+        width: 100%;
     }
 }

@@ -99,6 +99,7 @@ export default function Services() {
       <div className="services-glow glow-bottom"></div>
 
       <div className="services-container">
+        
         {/* LEFT SIDE */}
         <div className="services-left" data-aos='zoom-out'>
           <span className="services-label">

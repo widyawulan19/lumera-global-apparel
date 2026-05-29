@@ -94,6 +94,7 @@ export default function ProcessSection() {
     <section className="process-section" id='process'>
       <div className="process-glow glow-left"></div>
       <div className="process-glow glow-right"></div>
+  
 
       <div className="process-container">
 
