@@ -129,7 +129,7 @@ export default function TargetClients() {
               {/* IMAGE */}
               {client.img && (
                 <div className="target-image" >
-                  <img src={client.img} alt={client.title} />
+                  <img src={client.img} alt={client.title} loading='lazy' />
                 </div>
               )}
 

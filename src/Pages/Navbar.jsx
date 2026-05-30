@@ -28,7 +28,7 @@ function Navbar() {
 
             <div className="nc-right">
                 <a
-                    href="https://wa.me/6281115599002"
+                    href="https://api.whatsapp.com/send?phone=6590846600&text=Hello%20Lumera%20Global,%20I%20would%20like%20to%20inquire%20about%20your%20apparel%20sourcing%20services."
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -55,7 +55,7 @@ function Navbar() {
                 <a href="#footer">CONTACT</a>
 
                 <a
-                    href="https://wa.me/6281115599002"
+                    href="https://api.whatsapp.com/send?phone=6590846600&text=Hello%20Lumera%20Global,%20I%20would%20like%20to%20inquire%20about%20your%20apparel%20sourcing%20services."
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -68,3 +68,5 @@ function Navbar() {
 }
 
 export default Navbar
+
+// Hello Lumera Global, I would like to inquire about your apparel sourcing services.

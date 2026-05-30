@@ -63,7 +63,11 @@ function NewHero() {
             data-aos-delay="200"
           >
 
-            <a href="#contact">
+            <a 
+             href="https://api.whatsapp.com/send?phone=6590846600&text=Hello%20Lumera%20Global,%20I%20would%20like%20to%20inquire%20about%20your%20apparel%20sourcing%20services."
+                    target="_blank"
+                    rel="noopener noreferrer"
+            >
               <button className="btn-active">
                 Work With Us
                 <IoMdArrowRoundForward />
@@ -71,7 +75,7 @@ function NewHero() {
             </a>
 
             <a
-              href="https://wa.me/6281115599002"
+              href="https://api.whatsapp.com/send?phone=6590846600&text=Hello%20Lumera%20Global%2C%20I%20am%20interested%20in%20your%20apparel%20sourcing%20services.%20Please%20share%20more%20information%20about%20MOQ%2C%20pricing%2C%20and%20process."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -89,10 +93,16 @@ function NewHero() {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <button>
-              Talk to Our Team
-              <IoMdArrowRoundForward />
-            </button>
+            <a
+              href="https://api.whatsapp.com/send?phone=6590846600&text=Hello%20Lumera%20Global,%20I%20would%20like%20to%20inquire%20about%20your%20apparel%20sourcing%20services."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>
+                Talk to Our Team
+                <IoMdArrowRoundForward />
+              </button>
+            </a>
           </div>
 
           {/* BADGES */}
@@ -149,3 +159,6 @@ function NewHero() {
 }
 
 export default NewHero;
+
+
+//  Hello Lumera Global, I am interested in your apparel sourcing services. Please share more information about MOQ, pricing, and process.

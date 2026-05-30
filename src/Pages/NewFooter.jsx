@@ -69,12 +69,12 @@ export default function NewFooter() {
 
             <div className="contact-item">
               <span>Email</span>
-              <p>hello@lumeraglobal.com</p>
+              <p>lumeraglobalsgp@gmail.com</p>
             </div>
 
             <div className="contact-item">
               <span>WhatsApp</span>
-              <p>+62 xxx xxx xxx</p>
+              <p>+65 9084 6600 </p>
             </div>
 
             <div className="contact-item">

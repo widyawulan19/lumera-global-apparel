@@ -218,6 +218,10 @@ BUTTONS
     margin-top: 28px;
 }
 
+.semi-btn a {
+    text-decoration: none;
+}
+
 .semi-btn button {
     display: flex;
     align-items: center;

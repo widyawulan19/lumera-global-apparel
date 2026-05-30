@@ -83,6 +83,10 @@
     gap: 18px;
 }
 
+.cta-right a {
+    text-decoration: none;
+}
+
 .cta-btn {
     min-width: 240px;
 
